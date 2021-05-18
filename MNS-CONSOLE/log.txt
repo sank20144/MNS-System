@@ -1,0 +1,11 @@
+[Sat May 15 16:27:39 2021] [*] Enumerating modules with ToolHelp32  -> 1
+[Sat May 15 16:27:39 2021] [*] Checking CloseHandle with an invalide handle  -> 1
+[Sat May 15 16:27:39 2021] [*] Checking SeDebugPrivilege  -> 1
+[Sat May 15 16:27:39 2021] [*] Walking process memory with GetModuleInformation  -> 1
+[Sat May 15 16:27:39 2021] [*] Walking process memory for hidden modules  -> 1
+[Sat May 15 16:27:44 2021] [*] Checking Low Fragmentation Heap -> 1
+[Sat May 15 16:27:44 2021] [*] Checking CloseHandle with an invalide handle  -> 1
+[Sat May 15 16:27:44 2021] [*] Checking SeDebugPrivilege  -> 1
+[Sat May 15 16:27:44 2021] [*] Enumerating modules with ToolHelp32  -> 1
+[Sat May 15 16:27:44 2021] [*] Walking process memory with GetModuleInformation  -> 1
+[Sat May 15 16:27:44 2021] [*] Walking process memory for hidden modules  -> 1

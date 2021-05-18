@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AntiAnalysis">
+      <UniqueIdentifier>{e6520b3c-bb21-41fa-8ad4-1e74d04289f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntiDebug">
+      <UniqueIdentifier>{6bed1aa0-9bc7-42e3-a8c3-6e8b6bfd491c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntiDump">
+      <UniqueIdentifier>{abe31535-de93-4f20-a0ae-248921597204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntiVM">
+      <UniqueIdentifier>{02319204-ecb9-4818-ba07-8f8f79089291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{59850699-8631-4fc9-81a2-fcfa439a0393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimingAttacks">
+      <UniqueIdentifier>{fbee1623-0bf9-4b1c-91f7-ef28395c0be7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MNS-TESTAPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAnalysis\process.cpp">
+      <Filter>AntiAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAnalysis\WindowScanner.cpp">
+      <Filter>AntiAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\BeingDebugged.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\CheckRemoteDebuggerPresent.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\CloseHandle_InvalidHandle.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\HardwareBreakpoints.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\Interrupt_3.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\IsDebuggerPresent.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\LowFragmentationHeap.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\MemoryBreakpoints_PageGuard.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ModuleBoundsHookCheck.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtGlobalFlag.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQueryInformationProcess_ProcessDebugFlags.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQueryInformationProcess_ProcessDebugObject.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQueryInformationProcess_ProcessDebugPort.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQueryObject_AllTypesInformation.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQueryObject_ObjectTypeInformation.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtQuerySystemInformation_SystemKernelDebuggerInformation.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtSetInformationThread_ThreadHideFromDebugger.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\NtYieldExecution.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\OutputDebugStringAPI.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\PageExceptionBreakpointCheck.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ParentProcess.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ProcessHeap_Flags.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ProcessHeap_ForceFlags.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ProcessJob.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\ScanForModules.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\SeDebugPrivilege.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\SetHandleInformation_API.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\SharedUserData_KernelDebugger.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\SoftwareBreakpoints.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\TestModeEnabled.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\TLS_callbacks.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\TrapFlag.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\UnhandledExceptionFilter_Handler.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\WriteWatch.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug\WUDF_IsDebuggerPresent.cpp">
+      <Filter>AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDump\ErasePEHeaderFromMemory.cpp">
+      <Filter>AntiDump</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDump\SizeOfImage.cpp">
+      <Filter>AntiDump</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Generic.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Parallels.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Qemu.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Services.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\VirtualBox.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\VirtualPC.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\VMWare.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Wine.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVM\Xen.cpp">
+      <Filter>AntiVM</Filter>
+    </ClCompile>
+    <ClCompile Include="TimingAttacks\timing.cpp">
+      <Filter>TimingAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\APIs.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\ApiTypeDefs.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\Common.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\log.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\Utils.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiAnalysis\pch.h">
+      <Filter>AntiAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAnalysis\process.h">
+      <Filter>AntiAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAnalysis\WindowScanner.h">
+      <Filter>AntiAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\BeingDebugged.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\CheckRemoteDebuggerPresent.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\CloseHandle_InvalidHandle.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\HardwareBreakpoints.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\Interrupt_3.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\IsDebuggerPresent.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\LowFragmentationHeap.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\MemoryBreakpoints_PageGuard.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ModuleBoundsHookCheck.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtGlobalFlag.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtQueryInformationProcess_ProcessDebugFlags.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtQueryInformationProcess_ProcessDebugObject.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtQueryInformationProcess_ProcessDebugPort.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtQueryObject_ObjectInformation.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtQuerySystemInformation_SystemKernelDebuggerInformation.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtSetInformationThread_ThreadHideFromDebugger.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\NtYieldExecution.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\OutputDebugStringAPI.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\PageExceptionBreakpointCheck.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ParentProcess.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\pch.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ProcessHeap_Flags.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ProcessHeap_ForceFlags.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ProcessJob.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\ScanForModules.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\SeDebugPrivilege.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\SetHandleInformation_API.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\SharedUserData_KernelDebugger.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\SoftwareBreakpoints.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\TestModeEnabled.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\TLS_callbacks.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\TrapFlag.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\UnhandledExceptionFilter_Handler.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\WriteWatch.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug\WUDF_IsDebuggerPresent.h">
+      <Filter>AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDump\ErasePEHeaderFromMemory.h">
+      <Filter>AntiDump</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDump\pch.h">
+      <Filter>AntiDump</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDump\SizeOfImage.h">
+      <Filter>AntiDump</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Generic.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Parallels.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\pch.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Qemu.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Services.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\VirtualBox.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\VirtualPC.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\VMWare.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Wine.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\Xen.h">
+      <Filter>AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="TimingAttacks\pch.h">
+      <Filter>TimingAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="TimingAttacks\timing.h">
+      <Filter>TimingAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\APIs.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\ApiTypeDefs.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\Common.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\log.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\pch.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\Utils.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\VersionHelpers.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\winapifamily.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\WinStructs.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
